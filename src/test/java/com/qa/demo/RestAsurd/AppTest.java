@@ -27,7 +27,7 @@ public class AppTest {
     	
     	Assertion assertion = new Assertion();
 		assertion.assertEquals(200, res.getStatusCode());
-    	
+    	System.out.println("Program RestAssured");
     	
     }
 }
