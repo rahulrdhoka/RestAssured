@@ -30,5 +30,6 @@ public class AppTest {
     	System.out.println("Program java with restassured ");
     	System.out.println("Program java with restassured 2 ");
 		System.out.println("Rest");
+	    System.out.println("RestSOA");
     }
 }
