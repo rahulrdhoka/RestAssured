@@ -24,7 +24,7 @@ public class PutRequestdemo {
 		req.contentType("application/json");
 		req.body(obj.toJSONString());
 		
-		Response res = req.put("api/user/2");
+		Response res = req.put("api/users/2");
 		System.out.println("Status:"+res.getStatusCode());
 		System.out.println("Response:"+ res.prettyPrint());
 		Assert.assertEquals(200, res.getStatusCode());

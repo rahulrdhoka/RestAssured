@@ -23,7 +23,7 @@ public class PatchRequestdemo {
 		req.contentType("application/json");
 		req.body(obj.toJSONString());
 		
-		Response res = req.patch("api/user/2");
+		Response res = req.patch("api/users/2");
 		System.out.println("Status:"+res.getStatusCode());
 		System.out.println("Response:"+ res.prettyPrint());
 		Assert.assertEquals(200, res.getStatusCode());
