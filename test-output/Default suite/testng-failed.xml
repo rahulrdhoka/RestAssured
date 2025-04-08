@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.demo.RestAsurd.BasicAuthdemo">
+      <class name="com.qa.demo.RestAsurd.AppTest">
         <methods>
-          <include name="basicauth"/>
+          <include name="WeatherMessageBody"/>
         </methods>
-      </class> <!-- com.qa.demo.RestAsurd.BasicAuthdemo -->
+      </class> <!-- com.qa.demo.RestAsurd.AppTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

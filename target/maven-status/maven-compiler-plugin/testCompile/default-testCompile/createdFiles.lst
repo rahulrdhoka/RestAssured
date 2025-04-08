@@ -1,0 +1,8 @@
+com\qa\demo\RestAsurd\PutRequestdemo.class
+com\qa\demo\RestAsurd\AppTest.class
+com\qa\demo\RestAsurd\AuthDemo2.class
+com\qa\demo\RestAsurd\PatchRequestdemo.class
+com\qa\demo\RestAsurd\QueryParam.class
+com\qa\demo\RestAsurd\PostRequestdemo.class
+com\qa\demo\RestAsurd\DeleteRequestdemo.class
+com\qa\demo\RestAsurd\BasicAuthdemo.class

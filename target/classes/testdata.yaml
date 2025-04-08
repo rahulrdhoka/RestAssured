@@ -1,0 +1,17 @@
+base_url: "https://jsonplaceholder.typicode.com"
+
+tests:
+  - name: "Get Valid User"
+    endpoint: "/users/1"
+    method: "GET"
+    expected_status: 200
+
+  - name: "Get Invalid User"
+    endpoint: "/users/999"
+    method: "GET"
+    expected_status: 404
+
+  - name: "Get Invalid User"
+    endpoint: "/users/8989"
+    method: "GET"
+    expected_status: 404
